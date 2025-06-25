@@ -1,8 +1,23 @@
-class Basics {}
+
+
+
+
 
 fun main() {
-    val name = "Alam"
+    println("Hello, Kotlin from VS Code!")
+
+    val isDeveloper: Boolean = true
+    println(isDeveloper)
+
+    val salary: Double = 15.000
+    println(salary)
+
+    val rating: Float = 4.5f
+    println(rating)
+
+    val name: String = "Alam"
     println(name)
-    val age: Int = 24
-    print(age)
+
+    println("$isDeveloper, $salary, $rating, $name")
 }
+
