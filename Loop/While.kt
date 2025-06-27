@@ -11,5 +11,13 @@ fun main() {
     for (i in 1..4) {
         print("$i,")
     }
-    // println(items)
+
+
+    println("message")
+
+
+    for(i in 5 downTo 1){
+        println("Tick $i ")
+    }
+   
 }
