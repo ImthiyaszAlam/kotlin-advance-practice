@@ -12,12 +12,16 @@ fun main() {
         print("$i,")
     }
 
-
     println("message")
 
-
-    for(i in 5 downTo 1){
+    for (i in 5 downTo 1) {
         println("Tick $i ")
     }
-   
+
+    var tries = 3
+
+    while (tries >= 1) {
+        println("Tries left $tries ")
+        tries--
+    }
 }
