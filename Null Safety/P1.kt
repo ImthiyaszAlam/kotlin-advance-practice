@@ -17,4 +17,7 @@ fun main() {
     val name1: String? = null
     val length1 = name!!.length
     println("length1 $length1")
+
+    val email: String? = "alam@gmail.com"
+    email.let { println("Email is : $email") }
 }
