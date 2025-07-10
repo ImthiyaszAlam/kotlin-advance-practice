@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    // No dependencies for now
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
 
 application {
