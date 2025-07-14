@@ -16,7 +16,7 @@ fun main() {
     println(grouped)
 
     val productMap = products.associateBy { it.id }
-    println("productMap : $grouped")
+    println("productMap : $productMap")
 
     val pencil = productMap[2]?.productName
     val notebook = productMap[3]?.productName
