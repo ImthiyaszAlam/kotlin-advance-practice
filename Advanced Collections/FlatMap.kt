@@ -20,7 +20,7 @@ fun main() {
     println("groupBy:    ${grouped}")
 
     val categoriesMap = categories.associateBy { it.name }
-   val item1 = categoriesMap[2]?.name
+   val item1 = categoriesMap["veggies"]?.name
     println("item1:    ${item1}")
 
     val allItems = categories.flatMap { it.items }
