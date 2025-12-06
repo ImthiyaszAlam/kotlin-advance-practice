@@ -9,6 +9,8 @@ fun reverse(arr:IntArray){
 
 
 while(i<j){
+
+    if(arr[i]!=arr[j]) return false;
     
 }
 
