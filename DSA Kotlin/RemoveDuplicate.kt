@@ -1,6 +1,6 @@
 fun main(){
 
-var arr = intArrayOf(1,2,3,4,5,6,4,6)
+var arr = intArrayOf(1,2,3,4,5,6,4,6,7,8,9)
 println(reverseDupl(arr))
 }
 
