@@ -7,6 +7,7 @@ fun main(){
 val array = intArrayOf(1,2,3,0,0,0,4,5,6,7,8,9)
 moveZeroes(array)
 println(array.joinToString())
+
 }
 
 
