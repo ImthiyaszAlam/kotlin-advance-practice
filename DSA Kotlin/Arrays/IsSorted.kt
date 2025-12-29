@@ -1,5 +1,5 @@
 fun main(){
-    val  arr = intArrayOf(1,1,1,1,1,2)
+    val  arr = intArrayOf(1,1,4,1,1,1,2)
    println( isSorted(arr))
 }
 
